@@ -47,9 +47,15 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>[.$][\w]*</string>
+					<string>[$][\w]*</string>
 					<key>name</key>
 					<string>variable.other.gotemplate</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>[.][\w]*</string>
+					<key>name</key>
+					<string>constant.language.gotemplate</string>
 				</dict>
 				<dict>
 					<key>match</key>
